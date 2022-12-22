@@ -1,0 +1,413 @@
+/* This stylesheet will be used across all pages */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    font-family:'Roboto', sans-serif;
+    background-image: url(../images/container_bg.png);
+    background-size: auto;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    animation: slidebg 15s linear infinite;
+}
+
+/*-----Header CSS-----*/
+
+.logo {
+    width: 350px;
+    display: inline-block;
+}
+
+.logo:hover {
+    animation: scaleimg 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+.logo-div {
+    display: inline-block;
+    width: auto;
+}
+
+body {
+    margin: 0;
+}
+
+.header-nav {
+    background-image: url(../images/nav_BG.png);
+    padding: 5px 0 10px 0;
+    text-align: center;
+    background-size: auto;
+    background-position: center;
+    width: 100%;
+}
+
+
+.specialnav {
+    text-align: center;
+}
+
+.div-link {
+    display: inline-block;
+    width: 90px;
+    height: 130px;
+    vertical-align: top;
+    margin: 10px 50px;
+    text-align: center;
+}
+
+.special{
+    display: block;
+    visibility: hidden;
+    text-align: center;
+    width: 150px;
+    margin: 0 auto 0 -30px;
+    color: rgb(245, 245, 245);
+    font-size: 22px;
+}
+
+.div-link:hover div .special {
+    visibility: visible;
+    animation-name: slidetext;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+}
+
+.image-link {
+    width: 70px;
+    height: 70px;
+    border: 3px solid lightgray;
+    border-radius: 15px;
+    background-color: lightgray;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.div-link:hover .image-link {
+  animation: scale1-2 0.5s ease;
+  animation-fill-mode: forwards;
+}
+
+/*Nav menus for header*/
+
+.nav-menu {
+    position: relative;
+    width: 300%;
+    display: none;
+    color: white;
+    right: 100%;
+}
+
+.nav-menu li {
+    padding: 10px;
+}
+
+.nav-menu ul {
+    padding: 0;
+    margin: 0 0;
+    list-style-type: none;
+    border-radius: 20px;
+    background-image: url(../images/nav_BG.png);
+    border: 3px solid white;
+    box-shadow: 10px 10px rgb(0,0,0,0.5);
+}
+
+.div-link:hover .nav-menu{
+    display: block;
+    animation: opac-into-view 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+.nav-menu a {
+    color: white;
+}
+
+.nav-menu li:hover {
+    animation: scaleimg 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+/*-----Page defaults-----*/
+
+h2 {
+    font-weight: none;
+    color: black;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: none;
+    margin: 15px;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration:none;
+}
+
+.div-link a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 18px;
+}
+
+li {
+    font-size: 18px;
+}
+
+/*-----Website icons :before-----*/
+
+.bulb:before {
+    content: url(../images/random_Bulbapedia18.png);
+}
+
+.pedia:before {
+    content: url(../images/random_Wikipedia18.png);
+}
+
+.tvbefore:before {
+    content: url(../images/random_PkmnTV20.png);
+}
+
+/*-----Game covers or season logo-----*/
+/*All game covers are standard to 300x300px or thereabouts*/
+
+.coverart {
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.coverimg {
+    height: auto;
+    width: 100%;
+}
+
+.coverart img:hover {
+  animation: scaleimg 0.5s ease;
+  animation-fill-mode: forwards;
+}
+
+/*-----Character sections-----*/
+
+.characters p {
+    text-align: center;
+}
+
+.charinfo {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.charinfo p {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin: 15px 0;
+}
+
+.charmenu {
+    background-image: url(../images/nav_BG.png);
+    color: white;
+    width: 300px;
+    line-height: 1.7;
+    margin: 0 auto;
+    padding: 10px 0;
+    border: 5px solid white;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.charmenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.charmenu a {
+    display: inline-block;
+}
+
+.charmenu a:hover {
+    transform: scale(1.2);
+}
+
+.charmenu h3 {
+    margin-top: 0;
+}
+
+.charmenu a {
+    color: white;
+}
+
+.info {
+    height: auto;
+    margin: 30px;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    border-top: 3px dotted black;
+}
+
+.info p {
+    text-align: left;
+    margin: 15px;
+    margin-top: 10px;
+    width: 50%;
+    display: inline-block;
+}
+
+.info img {
+    width: 10%;
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    vertical-align: top;
+    margin: 15px;
+    margin-top: 10px;
+}
+
+.info img:hover {
+    animation: scaleimg 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+/*-----Footer-----*/
+
+.footer {
+    background-image: url(../images/nav_BG.png);
+    width: 100%;
+    height: 100px;
+    border-top: 5px dashed white;
+}
+
+.footerbuttons {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.footer a {
+    color: black;
+}
+
+.continue {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+.continue p {
+    margin-right: 20px;
+    font-size: 22px;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.continue:hover {
+    animation: scalefooteroverride 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+.returntop {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+}
+
+.returntop p {
+    font-size: 22px;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.returntop:hover {
+    animation: scalefooteroverride 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+.external {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+
+.external i {
+    font-size: 20px;
+    color: white;
+    margin: 0 20px;
+    display: inline-block;
+    transition: font-size 0.5s, color 0.5s
+}
+
+.external i:hover {
+    font-size: 30px;
+}
+
+.fa-facebook-f:hover {
+    color: dodgerblue;
+}
+
+.fa-youtube:hover {
+    color: red;
+}
+
+.fa-twitter:hover {
+    color: skyblue;
+}
+
+.fa-instagram:hover {
+    color: hotpink;
+}
+
+/*-----Animations-----*/
+
+@keyframes slidetext {
+    0% {transform: translateY(130%)}
+    100% {transform: translateY(0%)}
+}
+
+@keyframes scaleimg {
+    0% {transform: scale(1.0);}
+    100% {transform: scale(1.1);}
+}
+
+@keyframes scalefooteroverride {
+    0% {transform: scale(1.0) translateY(-50%);}
+    100% {transform: scale(1.1) translateY(-50%);}
+}
+
+@keyframes scale1-2 {
+    0% {transform: scale(1.0);}
+    100% {transform: scale(1.2);}
+}
+
+@keyframes opac-into-view {
+    0% {opacity: 0%}
+    100% {opacity: 100%}
+}
+
+@keyframes slidebg {
+    from {background-position: 0 0; }
+    to {background-position: -500px 0; }
+}

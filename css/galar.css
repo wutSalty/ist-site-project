@@ -1,0 +1,85 @@
+/* This stylesheet is only used for the Galar page */
+
+.direction {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.direction p {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.extra {
+    height: auto;
+    margin: 30px;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.extra p {
+    text-align: center;
+    margin: 15px;
+    margin-top: 10px;
+    width: 70%;
+    display: inline-block;
+}
+
+.char {
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    vertical-align: top;
+    margin: 0px;
+}
+
+.extra .galarashimg {
+    width: 6%
+}
+
+.extra .gohimg {
+    width: 5%
+}
+
+.extra img:hover {
+    animation: scaleimg 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+.journeys {
+    margin-top: 10px;
+}
+
+.wrapper {
+    height: 2500px;
+    width: 100%;
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.sticky h2 {
+    color: black;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.galarbg {
+    background-image: url(../images/galar_BG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 5px solid black;
+}

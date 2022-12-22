@@ -1,0 +1,98 @@
+/* This stylesheet is only used for the Sinnoh page */
+
+.aboutsinnoh {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    border-bottom: 5px dashed black;
+}
+
+.aboutsinnoh p {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.sinnohlink {
+    width: 15%;
+}
+
+.sinnohlogo {
+    width: 100%;
+}
+
+.ashsinnoh {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+    overflow: auto;
+    text-align: center;
+    border-bottom: 5px dashed black;
+}
+
+.ashsinnoh p {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    margin: 15px 0;
+}
+
+.ashsinnohimg {
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    width: 9%;
+    margin-left: 100px;
+}
+
+.ashsinnohimg:hover {
+    animation: scaleimg 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+.profrowan p {
+    width: 53%;
+}
+
+.profrowan img {
+    width: 7%;
+}
+
+.galactic .cyrusimg {
+    width: 7%;
+}
+
+.galactic p {
+    width: 41%;
+}
+
+.wrapper {
+    height: 1100px;
+    width: 100%;
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.sticky h2 {
+    color: black;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.sinnohbg {
+    background-image: url(../images/sinnoh_BG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 5px solid black;
+}

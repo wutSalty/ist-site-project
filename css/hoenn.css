@@ -1,0 +1,97 @@
+/* This stylesheet is only used for the Hoenn page */
+
+.abouthoenn {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    border-bottom: 5px dashed black;
+}
+
+.abouthoenn p {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.hoennlink {
+    width: 15%;
+}
+
+.hoennlogo {
+    width: 100%;
+}
+
+.ashhoenn {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+    overflow: auto;
+    text-align: center;
+    border-bottom: 5px dashed black;
+}
+
+.ashhoenn p {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    margin: 15px 0;
+}
+
+.ashhoennimg {
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    width: 12%;
+    margin-left: 100px;
+}
+
+.ashhoennimg:hover {
+    animation: scaleimg 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+.morrison p {
+    width: 47%;
+}
+
+.morrison img {
+    width: 13%;
+}
+
+.aquamagma p {
+    width: 40%;
+    text-align: center;
+}
+
+.wrapper {
+    height: 1100px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sticky {
+    position: sticky;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.sticky h2 {
+    color: black;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.hoennbg {
+    background-image: url(../images/hoenn_BG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 5px solid black;
+}

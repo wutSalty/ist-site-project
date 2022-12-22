@@ -1,0 +1,146 @@
+/* This stylesheet is only used for the Alola page */
+
+.aboutalola {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    border-bottom: 5px dashed black;
+}
+
+.aboutalola p {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.alolalink {
+    width: 20%;
+}
+
+.alolalogo {
+    width: 100%;
+}
+
+.ashalola {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+    overflow: auto;
+    text-align: center;
+    border-bottom: 5px dashed black;
+}
+
+.ashalola p {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    margin: 15px 0;
+}
+
+.ashalolaimg {
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    width: 9%;
+    margin-left: 100px;
+}
+
+.ashalolaimg:hover {
+    animation: scaleimg 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+.kukui-burnet p {
+    width: 42%;
+}
+
+.kukui-burnet img {
+    width: 8%;
+}
+
+.lana p {
+    width: 53%;
+}
+
+.lana img {
+    width: 7%
+}
+
+.kiawe p {
+    width: 52%;
+}
+
+.kiawe img {
+    width: 8%;
+}
+
+.lillie-family p {
+    width: 33%;
+}
+
+.lillie-family img {
+    width: 8%
+}
+
+.lillie-family .gladionimg {
+    width: 7%;
+}
+
+.mallow p {
+    width: 51%;
+}
+
+.mallow img {
+    width: 9%;
+}
+
+.hau p {
+    width: 53%;
+}
+
+.hau img {
+    width: 7%;
+}
+
+.teamskull p {
+    width: 37%;
+}
+
+.teamskull .teamskullimg {
+    width: 12%
+}
+
+.teamskull .guzmaimg {
+    width: 9%;
+}
+
+.wrapper {
+    height: 1100px;
+    width: 100%;
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.sticky h2 {
+    color: black;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.alolabg {
+    background-image: url(../images/alola_BG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 5px solid black;
+}

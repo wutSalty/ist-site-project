@@ -1,0 +1,40 @@
+Sitemap (1) <-> Home (1)
+                 |
+                 V
+               Regions (about the region) (5)
+                 | 
+                 V
+               Outside pages
+
+--just in case--
+
+.info5 .div-link .heading-link .special {
+    color: black;
+}
+
+.info5 .div-link {
+    width: 110px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.info5 .div-link .heading-link .image-link {
+    width: 90px;
+    height: 90px;
+}
+
+.info5 .div-link .heading-link .special {
+    width: 150px;
+    margin: 0 auto 0 -20px;
+}
+
+-------
+
+            <div class="external">
+                <a href="https://www.facebook.com/pokemon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/pokemon"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.twitter.com/pokemon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/pokemon"><i class="fab fa-instagram"></i></a>
+            </div>

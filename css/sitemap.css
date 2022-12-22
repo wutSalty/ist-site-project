@@ -1,0 +1,113 @@
+/* This stylesheet is only used for the Sitemap page */
+
+html {
+    background-image: url(../images/header_BG500.png);
+}
+
+body {
+    height: 100%;
+}
+
+p {
+    margin: 10px 15px;
+}
+
+.font40 {
+    font-size: 40px;
+}
+
+.big-boi a {
+    color: white;
+}
+
+.big-boi a:hover {
+    color: dodgerblue;
+}
+
+li {
+    margin: 10px;
+}
+
+ul {
+    display: inline-block;
+}
+
+.container {
+    margin: 0px 20px;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+.big-boi {
+    background-image: url(../images/nav_BG.png);
+    border-radius: 10px;
+    border: 5px solid white;
+    box-shadow: 10px 10px rgb(0,0,0,0.5);
+    margin-top: 0;
+}
+
+video {
+    width: 30%;
+}
+
+.big-container {
+    margin: 0 0 10px;
+    display: block;
+    text-align: center;
+}
+
+.musiccontainers {
+    position: fixed;
+    bottom: 20px;
+    margin-bottom: 20px;
+    right: 35px;
+}
+
+.credits {
+    background-image: url(../images/region_bg.png);
+    color: white;
+    display: block;
+    width: 50%;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 10px 10px rgb(0,0,0,0.5);
+}
+
+.credits a {
+    color: dodgerblue;
+}
+
+.credits .fa-twitter {
+    color: skyblue;
+}
+
+.credits .fa-youtube {
+    color: red;
+}
+
+.credits span {
+    /*display: none;*/
+}
+
+.return {
+    margin: 20px 0 0 20px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(../images/region_bg.png);
+    color: white;
+    border-radius: 10px;
+    border: 5px solid white;
+    box-shadow: 10px 10px rgb(0,0,0,0.5);
+}
+
+.return i {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.return:hover {
+    animation: scaleimg 0.5s ease;
+    animation-fill-mode: forwards;
+}

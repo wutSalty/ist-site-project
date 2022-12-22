@@ -1,0 +1,130 @@
+/* This stylesheet is only used for the Kalos page */
+
+.aboutkalos {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    border-bottom: 5px dashed black;
+}
+
+.aboutkalos p {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.kaloslink {
+    width: 20%;
+}
+
+.kaloslogo {
+    width: 100%;
+}
+
+.ashkalos {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+    overflow: auto;
+    text-align: center;
+    border-bottom: 5px dashed black;
+}
+
+.ashkalos p {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    margin: 15px 0;
+}
+
+.ashkalosimg {
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    width: 9%;
+    margin-left: 100px;
+}
+
+.ashkalosimg:hover {
+    animation: scaleimg 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+.serena p {
+    width: 53%;
+}
+
+.serena img {
+    width: 7%;
+}
+
+.clemont p {
+    width: 53%;
+}
+
+.clemont img {
+    width: 7%;
+}
+
+.bonnie p {
+    width: 53%;
+}
+
+.bonnie img {
+    width: 7%;
+}
+
+.alain p {
+    width: 53%;
+}
+
+.alain img {
+    width: 7%;
+}
+
+.shauna p {
+    width: 52%;
+}
+
+.shauna img {
+    width: 8%;
+}
+
+.teamflare p {
+    width: 40%;
+}
+
+.teamflare .lysendreimg {
+    width: 8%;
+}
+
+.wrapper {
+    height: 1100px;
+    width: 100%;
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.sticky h2 {
+    color: black;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.kalosbg {
+    background-image: url(../images/kalos_BG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 5px solid black;
+}

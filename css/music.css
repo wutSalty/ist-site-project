@@ -1,0 +1,139 @@
+/* Music player. That's all. Literally just to play music */
+
+.musiccontainer {
+    position: sticky;
+    bottom: 40px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.musicplayer {
+    background-color: rgb(80,80,80);
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    font-size: 24px;
+    display: inline-block;
+    border: 5px solid black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.musicplayer {
+    transition: font-size 0.5s;
+}
+
+.musicplayer:hover {
+    font-size: 28px;
+}
+
+.nowplaying {
+    background-color: rgb(80,80,80);
+    width: auto;
+    text-align: center;
+    color: white;
+    border-radius: 20px 0 0 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    position: absolute;
+    right: 70px;
+    bottom: 3px;
+    z-index: -1;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.nowplaying p {
+    padding: 0;
+    margin: 0;
+}
+
+#run-time {
+    margin-top: 5px;
+}
+
+.playpause {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-content {
+    display: ;
+    position: absolute;
+    width: 250%;
+    padding-bottom: 10px;
+    z-index: 1;
+    bottom: 100%;
+    right: 10%;
+    border-radius: 5px;
+}
+
+.musicplayer:hover .outer-list {
+    display: block;
+    animation: opac-into-view 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+.music-content button {
+    background: none;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 18px;
+    display: block;
+    width: auto;
+    margin: 10px auto;
+}
+
+.music-content button:hover {
+    transform: scale(1.1);
+}
+
+.the-hover p {
+    display: block;
+    margin: 0;
+    cursor: default;
+}
+
+.the-hover {
+    padding: 10px 0;
+}
+
+.outer-list {
+    background-image: url(../images/nav_BG.png);
+    width: 100%;
+    float: right;
+    box-shadow: 10px 10px rgb(0,0,0,0.5);
+    border-radius: 5px;
+    border: 2px solid white;
+    display: none;
+}
+
+.list-items {
+    display: none;
+    padding: 10px;
+    background-image: url(../images/nav_BG.png);
+    box-shadow: 10px 10px rgb(0,0,0,0.5);
+    border-radius: 5px;
+    border: 2px solid white;
+    position: absolute;
+    transform: translate(-90%, -100%);
+    width: 150%;
+}
+
+.the-hover:hover .list-items {
+    display: block;
+    animation: opac-into-view 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+.the-hover:hover p {
+    transform: scale(1.1);
+}

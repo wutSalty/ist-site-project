@@ -1,0 +1,142 @@
+/* This stylesheet is only used for the Kanto page */
+
+.aboutseries {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 5px dashed black;
+}
+
+.aboutseries p {
+    width: 70%;
+    margin: 15px auto;
+}
+
+.aboutkanto p {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.aboutkanto {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 5px dashed black;
+}
+
+.aboutjohto p {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.aboutjohto {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 5px dashed black;
+}
+
+.kantolink {
+    width: 20%;
+}
+
+.kantologo {
+    width: 100%;
+}
+
+.ashketchup {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+    overflow: auto;
+    text-align: center;
+    border-bottom: 5px dashed black;
+}
+
+.ashketchup p {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    margin: 15px 0;
+}
+
+.ketchupimg {
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    width: 12%;
+    margin-left: 100px;
+}
+
+.ketchupimg:hover {
+    animation: scaleimg 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+.misty p {
+    width: 48%;
+}
+
+.misty img {
+    width: 12%;
+}
+
+.teamrocket {
+    padding-bottom: 10px;
+    border-bottom: 5px dashed black;
+    margin-bottom: 0;
+}
+
+.teamrocket p {
+    width: 36%;
+}
+
+.teamrocket .rockettrioimg {
+    width: 15%;
+}
+
+.teamrocket .giovanniimg {
+    width: 7%;
+}
+
+.wrapper {
+    height: 1000px;
+    width: 100%;
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.sticky h2 {
+    color: black;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.kantobg {
+    background-image: url(../images/kanto_BG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 5px solid black;
+}
+
+.johtobg {
+    background-image: url(../images/johto_BG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 5px solid black;
+}

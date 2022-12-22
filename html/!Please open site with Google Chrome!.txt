@@ -1,0 +1,1 @@
+The pages were primarily tested with Google Chrome and not other browsers such as Internet Explore and Microsoft Edge. There are certain css which does not work on IE and Edge so for the best experience, please open as Google Chrome. Thanks and enjoy :)
